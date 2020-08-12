@@ -7,6 +7,8 @@ struct rectangle{
 };
 
 void swap(struct rectangle &p){
+    // "." operator is used instead of "->" operator because here I have used reference not structure,
+    // therefore as pointer is not present, so "->" cannot be used, & in reference "." operator is used.
     int temp = p.length;
     p.length = p.breadth;
     p.breadth = temp;
