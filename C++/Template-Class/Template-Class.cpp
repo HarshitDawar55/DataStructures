@@ -6,6 +6,7 @@ using namespace std;
 template <class T>
 class Mathematical_Operations{
     private:
+    // Declaring the Variables
         T n1, n2;
 
     public:
@@ -14,5 +15,21 @@ class Mathematical_Operations{
             this->n1 = n1;
             this->n2 = n2;
         }
+    
+    // Function for addition
+        T add(){
+            return n1 + n2;
+        }
 
+    // Function for Subtraction
+        T sub(){
+            return abs(n1 - n2);
+        }
+
+    // Function for Multiplication
+        T multiply(){
+            return n1 * n2;
+        }
+
+    
 };
