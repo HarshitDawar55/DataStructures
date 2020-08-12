@@ -31,4 +31,15 @@ class Rectangle{
         void getBreadth(){
             cout<<breadth<<endl;
         }
+
+    // Adding Setter/Mutators Functions
+        void setLength(int l){
+            length = l;
+        }
+
+        void setBreadth(int b){
+            breadth = b;
+        }
+
+    
 };
