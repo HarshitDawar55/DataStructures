@@ -22,4 +22,13 @@ class Rectangle{
         void perimeter(){
             cout<<2 * (length + breadth)<<endl;
         }
+
+    // Adding Accessor/Getter Functions
+        void getLength(){
+            cout<<length<<endl;
+        }
+
+        void getBreadth(){
+            cout<<breadth<<endl;
+        }
 };
