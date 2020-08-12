@@ -11,6 +11,6 @@ void swap(struct rectangle *p){
 
 int main(){
     struct rectangle rec = {10, 5};
-    printf("Initial values = %d %d\n");
+    printf("Initial values = %d %d\n", rec.length, rec.breadth);
     return 0;
 }
