@@ -40,6 +40,8 @@ class Rectangle{
         void setBreadth(int b){
             breadth = b;
         }
-
+    
+    // Adding Destructors
+        ~Rectangle();
     
 };
