@@ -42,6 +42,11 @@ class Rectangle{
         }
     
     // Adding Destructors
-        ~Rectangle();
-    
+        ~Rectangle();    
 };
+
+// Defining the functions declared inside class outside it using Scope Resolution Operator "::"
+Rectangle::Rectangle(int l, int b){
+    length = l;
+    breadth = b;
+}
