@@ -15,13 +15,9 @@ class Rectangle{
         Rectangle(int l, int b);
 
     // Adding Facilitators (Functions which perform some operations on the data)
-        void area(){
-            cout<<(length * breadth)<<endl;
-        }
+        void area();
 
-        void perimeter(){
-            cout<<2 * (length + breadth)<<endl;
-        }
+        void perimeter();
 
     // Adding Accessor/Getter Functions
         void getLength(){
