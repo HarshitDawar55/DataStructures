@@ -17,3 +17,4 @@ terraform*
 terraform*
 .vscode
 *.dSYM
+a.out
