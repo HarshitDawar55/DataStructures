@@ -46,3 +46,17 @@ Rectangle::Rectangle(int l, int b){
     length = l;
     breadth = b;
 }
+
+void Rectangle::area(){
+    cout<<(length * breadth)<<endl;
+}
+
+void Rectangle::perimeter(){
+    cout<<(2 * (length + breadth))<<endl;
+}
+
+Rectangle::~Rectangle(){
+
+}
+
+
